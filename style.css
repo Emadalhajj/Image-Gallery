@@ -7,12 +7,19 @@
 body {
   font-family: Arial, sans-serif;
 }
-
+.nav{
+  padding: 10px 20px;
+  width: 100%;
+ 
+}
+.nav img{
+  width: 80px;
+}
 .slider {
   position: relative;
   width: 100%;
-  max-width: 800px;
-  margin: 50px auto;
+  max-width: 1200px;
+  margin: 20px auto;
   overflow: hidden;
   border-radius: 10px;
 }
