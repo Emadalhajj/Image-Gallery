@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Images Slider</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+</head>
+<body>
+
+<div class="slider">
+    <div class="slider-container">
+        <div class="slide"><img src="./images/img2.jpg" alt=""></div>
+        <div class="slide"><img src="./images/img3.jpg" alt=""></div>
+        <div class="slide"><img src="./images/img4.jpg" alt=""></div>
+    </div>
+
+    <!-- Navigation buttons -->
+    <button class="prev" id="prev"><i class="fa-solid fa-circle-left"></i></button>
+    <button class="next" id="next"><i class="fa-solid fa-circle-right"></i></button>
+
+    <!-- Pagination dots -->
+    <div class="pagination" id="pagination">
+        <span class="dot" data-slide="0"></span>
+        <span class="dot" data-slide="1"></span>
+        <span class="dot" data-slide="2"></span>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
